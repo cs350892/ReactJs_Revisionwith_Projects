@@ -1,0 +1,13 @@
+.Heading{
+background-color: #47da1f;
+border: 2px solid black;
+width: 300px;
+border-radius: 2px;
+
+
+}
+
+.Heading h1{
+    margin: 5px 45px;
+}
+
