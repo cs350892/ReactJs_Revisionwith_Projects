@@ -1,0 +1,52 @@
+.carItem{
+    background-color: #f668c2;
+    
+    }
+    .carName{
+      color: rgb(174, 255, 0);
+    }
+    .btn{
+
+   float: right;
+    }
+    .buttonContainer {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    
+    .btn {
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 4px;
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+    
+    .btn:hover {
+      background: #45a049;
+    }
+    .carItem {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .selected {
+      background-color: blue;
+      color: white; /* Optional: change text color */
+    }
+    
+    .carName {
+      flex: 1;
+    }
+    
+    .btn {
+      margin-left: 10px;
+    }
+    
